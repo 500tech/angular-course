@@ -6,7 +6,7 @@ function varLetConst() {
     }, 0);
   }
 }
-varLetConst();
+//varLetConst();
 
 /** classes, arrow functions, this **/
 class User {
@@ -27,7 +27,7 @@ class User {
 }
 
 const user = new User("James", "Bond");
-user.makeSuspense();
+//user.makeSuspense();
 
 /** callbacks, promises, async await **/
 const fetchData = function(url) {
@@ -46,7 +46,7 @@ function asyncAwait() {
       console.log("data2", data2);
     });
 }
-asyncAwait();
+//asyncAwait();
 
 /** Functional Programming, destructuring **/
 const capitalize = (name: string = ""): string => {
@@ -76,7 +76,7 @@ function getFullName(first?: string, middle?: string, last?: string) {
 
   return result;
 }
-console.log("fullname", getFullName("John", "F.", "Kennedy"));
+//console.log("fullname", getFullName("John", "F.", "Kennedy"));
 
 /* Exercise */
 // const myAccount = new Account({ min: -1000, initial: 1000 });
