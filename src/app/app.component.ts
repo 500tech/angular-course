@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular';
-  hitList = [{id: 1, name: 'asdf'}]
+
   onChangeName(e: Event) {
     this.name = (e.target as HTMLInputElement).value;
   }
